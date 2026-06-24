@@ -1,8 +1,8 @@
 # Bread Bowl's Delight
 
-<!-- ![banner image](https://github.com/Kmek/MinecraftMod-BreadBowls/blob/main/images/banner.png?raw=true) -->
+![banner image](https://github.com/Kmek/MinecraftMod-BreadBowlsDelight/blob/main/images/logo_sign_banner_128px.png?raw=true)
 
-A [Forge](https://www.curseforge.com/minecraft/mc-mods/bread-bowls) Minecraft Mod addon for adding bread bowls to Farmer's Delight soups & stews.
+A [Forge](https://www.curseforge.com/minecraft/mc-mods/bread-bowls-delight) Minecraft Mod addon for adding bread bowls to Farmer's Delight soups & stews.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A2I777F)
 
@@ -21,11 +21,10 @@ You can look at my source code for learning purposes, but you cannot copy!
 
 ---
 # What's in the mod?
-This mod adds bread bowls for soups, in place of bowls. The bread adds more sustenance to soups than before. Additionally, this results in no wooden bowls taking up an inventory slot as you explore.
+Currently a WIP.
 
-<!-- ### Items Include:
-- Bread Bowl
-- Beetroot Soup Bread Bowl
-- Mushroom Stew Bread Bowl
-- Rabbit Stew Bread Bowl
-- Suspicious Stew Bread Bowl -->
+There is one test item as well as mod dependencies setup right now.
+<!-- This mod adds bread bowls for soups, in place of bowls. The bread adds more sustenance to soups than before. Additionally, this results in no wooden bowls taking up an inventory slot as you explore. -->
+
+### Items Include:
+- Baked Cod Stew Bread Bowl (no recipe yet)
