@@ -4,16 +4,16 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "farmersdelight:pumpkin_slice"
+      "tag": "forge:raw_fishes"
     },
     {
-      "tag": "forge:salad_ingredients"
+      "tag": "forge:pasta"
     },
     {
-      "tag": "forge:raw_pork"
+      "tag": "forge:crops/tomato"
     },
     {
-      "tag": "forge:milk"
+      "item": "minecraft:ink_sac"
     }
   ],
   "container": {
@@ -21,6 +21,6 @@
   },
   "recipe_book_tab": "meals",
   "result": {
-    "item": "breadbowlsdelight:pumpkin_soup"
+    "item": "breadbowlsdelight:squid_ink_pasta"
   }
 }
