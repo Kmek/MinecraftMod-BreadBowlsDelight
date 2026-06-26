@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "tag": "forge:crops/potato"
+    },
+    {
+      "tag": "forge:crops/beetroot"
+    },
+    {
+      "tag": "forge:salad_ingredients"
+    }
+  ],
+  "container": {
+    "item": "breadbowls:bread_bowl"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "breadbowlsdelight:vegetable_soup"
+  }
+}
