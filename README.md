@@ -27,4 +27,4 @@ There is one test item as well as mod dependencies setup right now.
 <!-- This mod adds bread bowls for soups, in place of bowls. The bread adds more sustenance to soups than before. Additionally, this results in no wooden bowls taking up an inventory slot as you explore. -->
 
 ### Items Include:
-- Baked Cod Stew Bread Bowl (no recipe yet)
+- Baked Cod Stew Bread Bowl
