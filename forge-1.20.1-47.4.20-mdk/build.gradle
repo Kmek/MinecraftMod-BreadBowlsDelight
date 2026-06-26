@@ -172,7 +172,7 @@ dependencies {
     runtimeOnly(fg.deobf("mezz.jei:jei-${minecraft_version}-forge:${jei_version}"))
 
     // Farmer's Delight mod dependency
-    implementation fg.deobf("curse.maven:farmers-delight-398521:6597298")
+    implementation fg.deobf("curse.maven:farmers-delight-398521:8083474") // Farmer's Delight v1.3.2
 
     // Bread Bowls mod dependency
 //    implementation fg.deobf("curse.maven:bread-bowls-1583366:8296940") // v1.0.0: breadbowls_mc1.20.1-1.0.0.jar
