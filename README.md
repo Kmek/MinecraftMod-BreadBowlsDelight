@@ -21,10 +21,25 @@ You can look at my source code for learning purposes, but you cannot copy!
 
 ---
 # What's in the mod?
-Currently a WIP.
-
-There is one test item as well as mod dependencies setup right now.
-<!-- This mod adds bread bowls for soups, in place of bowls. The bread adds more sustenance to soups than before. Additionally, this results in no wooden bowls taking up an inventory slot as you explore. -->
+This mod adds bread bowls for soups, in place of bowls. 
+The bread adds more sustenance to soups than before. 
+Additionally, this results in no wooden bowls taking up an inventory slot as you explore.
 
 ### Items Include:
 - Baked Cod Stew Bread Bowl
+- Beef Stew Bread Bowl
+- Bone Broth Bread Bowl
+- Chicken Soup Bread Bowl
+- Cooked Rice Bread Bowl
+- Fish Stew Bread Bowl
+- Fried Rice Bread Bowl
+- Mushroom Rice Bread Bowl
+- Noodle Soup Bread Bowl
+- Onion Soup Bread Bowl
+- Pasta With Meatballs Bread Bowl
+- Pasta With Mutton Chops Bread Bowl
+- Pumpkin Soup Bread Bowl
+- Squid ink Pasta Bread Bowl
+- Tomato Soup Bread Bowl
+- Vegetable Noodles Bread Bowl
+- Vegetable Soup Bread Bowl
