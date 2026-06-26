@@ -62,6 +62,8 @@ public class BreadBowlsMod
             () -> new ConsumableItem(BreadBowlPropsUtils.ItemAndFoodProps(FoodValues.NOODLE_SOUP), true));
     public static final RegistryObject<Item> ONION_SOUP = ITEMS.register("onion_soup",
             () -> new ConsumableItem(BreadBowlPropsUtils.ItemAndFoodProps(FoodValues.ONION_SOUP), true));
+    public static final RegistryObject<Item> PASTA_WITH_MEATBALLS = ITEMS.register("pasta_with_meatballs",
+            () -> new ConsumableItem(BreadBowlPropsUtils.ItemAndFoodProps(FoodValues.PASTA_WITH_MEATBALLS), true));
 
     // Creates a creative tab with the id "breadbowls:example_tab" for the example item, that is placed after the combat tab
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab", () -> CreativeModeTab.builder()
@@ -79,6 +81,7 @@ public class BreadBowlsMod
                 output.accept(MUSHROOM_RICE.get());
                 output.accept(NOODLE_SOUP.get());
                 output.accept(ONION_SOUP.get());
+                output.accept(PASTA_WITH_MEATBALLS.get());
             }).build());
 
     public BreadBowlsMod(FMLJavaModLoadingContext context)
