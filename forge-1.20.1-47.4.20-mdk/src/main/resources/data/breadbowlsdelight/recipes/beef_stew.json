@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:raw_beef"
+    },
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "tag": "forge:crops/potato"
+    }
+  ],
+  "container": {
+    "item": "breadbowls:bread_bowl"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "breadbowlsdelight:beef_stew"
+  }
+}
