@@ -175,10 +175,7 @@ dependencies {
     implementation fg.deobf("curse.maven:farmers-delight-398521:8083474") // Farmer's Delight v1.3.2
 
     // Bread Bowls mod dependency
-//    implementation fg.deobf("curse.maven:bread-bowls-1583366:8296940") // v1.0.0: breadbowls_mc1.20.1-1.0.0.jar
     implementation fg.deobf("curse.maven:bread-bowls-1583366:8324590") // v1.2.0: breadbowls_forge-1.2.0.jar
-//    implementation fg.deobf("blank:breadbowls_mc1.20.1:1.0.0") // ./libs/breadbowls_mc1.20.1-1.0.0.jar
-//    implementation fg.deobf("blank:breadbowls-1.1.0-forge:1.20.1") // ./libs/breadbowls-1.1.0-forge-1.20.1.jar
 //    implementation fg.deobf("blank:breadbowls:1.2.0") // ./libs/breadbowls-1.2.0.jar
 
     // AppleSkin mod for use in the testing client
