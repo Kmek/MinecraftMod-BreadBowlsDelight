@@ -1,7 +1,7 @@
 package kmek.breadbowlsdelight;
 
-import com.example.breadbowls.BreadBowlSoupItem;
 import com.mojang.logging.LogUtils;
+import kmek.breadbowls.items.BreadBowlPropsUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -25,6 +25,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.slf4j.Logger;
 import vectorwing.farmersdelight.common.FoodValues;
+import vectorwing.farmersdelight.common.item.ConsumableItem;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(BreadBowlsMod.MODID)
@@ -41,13 +42,8 @@ public class BreadBowlsMod
     // Create a Deferred Register to hold CreativeModeTabs which will all be registered under the "breadbowls" namespace
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
 
-//    // Creates a new Block with the id "breadbowls:example_block", combining the namespace and path
-//    public static final RegistryObject<Block> EXAMPLE_BLOCK = BLOCKS.register("example_block", () -> new Block(BlockBehaviour.Properties.of().mapColor(MapColor.STONE)));
-//    // Creates a new BlockItem with the id "breadbowls:example_block", combining the namespace and path
-//    public static final RegistryObject<Item> EXAMPLE_BLOCK_ITEM = ITEMS.register("example_block", () -> new BlockItem(EXAMPLE_BLOCK.get(), new Item.Properties()));
-
     public static final RegistryObject<Item> BAKED_COD_STEW = ITEMS.register("baked_cod_stew",
-            () -> new BreadBowlSoupItem(FoodValues.BAKED_COD_STEW));
+            () -> new ConsumableItem(BreadBowlPropsUtils.ItemAndFoodProps(FoodValues.BAKED_COD_STEW), true));
 
     // Creates a creative tab with the id "breadbowls:example_tab" for the example item, that is placed after the combat tab
     public static final RegistryObject<CreativeModeTab> CREATIVE_TAB = CREATIVE_MODE_TABS.register("creative_tab", () -> CreativeModeTab.builder()
@@ -55,7 +51,6 @@ public class BreadBowlsMod
             .title(Component.translatable("itemGroup.breadbowlsdelight.creative_tab"))
             .icon(() -> BAKED_COD_STEW.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
-//                output.accept(EXAMPLE_ITEM.get()); // Add the example item to the tab. For your own tabs, this method is preferred over the event
                 output.accept(BAKED_COD_STEW.get());
             }).build());
 

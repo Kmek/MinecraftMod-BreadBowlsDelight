@@ -15,7 +15,7 @@ You must consult with me before you use any of my mod's assets.
 All rights reserved in this mod, and I allow for this mod to be included in ModPacks.
 You can look at my source code for learning purposes, but you cannot copy!
 
-## Compatability
+## Compatibility
 - Compiled with **JEI** for crafting recipe support
 - Currently focusing on Minecraft 1.20.1 (will work on porting at a later time)
 

@@ -119,9 +119,9 @@ repositories {
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
+     flatDir {
+         dir 'libs'
+     }
 
     maven {
         // CraftTweaker and JEI
@@ -175,7 +175,11 @@ dependencies {
     implementation fg.deobf("curse.maven:farmers-delight-398521:6597298")
 
     // Bread Bowls mod dependency
-    implementation fg.deobf("curse.maven:bread-bowls-1583366:8296940") // v1.0.0: breadbowls_mc1.20.1-1.0.0.jar
+//    implementation fg.deobf("curse.maven:bread-bowls-1583366:8296940") // v1.0.0: breadbowls_mc1.20.1-1.0.0.jar
+    implementation fg.deobf("curse.maven:bread-bowls-1583366:8324590") // v1.2.0: breadbowls_forge-1.2.0.jar
+//    implementation fg.deobf("blank:breadbowls_mc1.20.1:1.0.0") // ./libs/breadbowls_mc1.20.1-1.0.0.jar
+//    implementation fg.deobf("blank:breadbowls-1.1.0-forge:1.20.1") // ./libs/breadbowls-1.1.0-forge-1.20.1.jar
+//    implementation fg.deobf("blank:breadbowls:1.2.0") // ./libs/breadbowls-1.2.0.jar
 
     // AppleSkin mod for use in the testing client
     compileOnly fg.deobf("squeek.appleskin:appleskin-forge:${appleskin_version}:api")
