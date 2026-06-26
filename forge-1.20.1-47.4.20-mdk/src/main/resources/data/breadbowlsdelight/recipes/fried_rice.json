@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "tag": "forge:crops/rice"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:crops/carrot"
+    },
+    {
+      "tag": "forge:crops/onion"
+    }
+  ],
+  "container": {
+    "item": "breadbowls:bread_bowl"
+  },
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "breadbowlsdelight:fried_rice"
+  }
+}
